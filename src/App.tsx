@@ -154,7 +154,7 @@ function App() {
         {page === 3 &&(<>
         <form className='bg-yellow-500 shadow-xl shadow-yellow-500/50 p-20 border-x-4 border-y-2 '>
           <h1 className="text-2xl font-bold text-slate-100">
-            Terimakasih Sudah Daftar
+            Terimakasih Sudah mendaftar
           </h1>
           <br />
           <div className= 'flex justify-center'>
