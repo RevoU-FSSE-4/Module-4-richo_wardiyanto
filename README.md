@@ -1,5 +1,5 @@
 # Link NETLIFY
-https://daftarforex.netlify.app/ 
+
 
 # Getting Started with Create React App
 
