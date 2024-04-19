@@ -1,4 +1,4 @@
-# Link NETLIFY
+# Link VERCEL
 
 
 # Getting Started with Create React App
