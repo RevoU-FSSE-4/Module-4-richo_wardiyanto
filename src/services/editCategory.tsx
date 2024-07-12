@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from "react";
 import { Formik, Form, Field } from "formik";
 import { useNavigate, useParams } from "react-router-dom";
-import FetchData from "./fetch";
-import Category from "./category";
+import FetchData from "../hook/fetch";
+import Category from "../hook/category";
 
 const EditCategory = () => {
   const idParams = useParams();

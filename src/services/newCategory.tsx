@@ -1,8 +1,8 @@
 import React, { useState } from "react";
-import Category from "./category";
+import Category from "../hook/category";
 import { Formik, Form, Field } from "formik";
 import { useNavigate } from "react-router-dom";
-import FetchData from "./fetch";
+import FetchData from "../hook/fetch";
 
 const Create = () => {
   const [category, setCategory] = useState("");

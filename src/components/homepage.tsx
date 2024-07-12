@@ -5,30 +5,6 @@ import * as Yup from "yup";
 import { BrowserRouter, Router, Route, Link, Routes } from "react-router-dom";
 import tailwind from "tailwindcss";
 
-const Home = () => {
-  return (
-    <div>
-      <h1>Home Page</h1>
-    </div>
-  );
-};
-
-const About = () => {
-  return (
-    <div>
-      <h1>About</h1>
-    </div>
-  );
-};
-
-const NotFound = () => {
-  return (
-    <div>
-      <h1>404 - Not Found!</h1>
-    </div>
-  );
-};
-
 const HomePage = (): React.ReactElement => {
 return (
     <>
@@ -46,4 +22,4 @@ return (
 );
 };
 
-export { About, Home, HomePage, NotFound };
+export  {HomePage};

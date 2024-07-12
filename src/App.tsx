@@ -1,16 +1,19 @@
 import React, { useEffect, useState } from "react";
 import "./App.css";
-import { HomePage, About, Home, NotFound } from "./homepage";
+import { HomePage } from "./components/homepage";
+import NotFound from "./components/pages/notfound";
+import Home from "./components/pages/home";
+import About from "./components/pages/about";
 import { BrowserRouter, Router, Route, Link, Routes } from "react-router-dom";
 import SignInForm from "./signIn";
-import CreateAccount from "./newAccount";
+import CreateAccount from "./services/newAccount";
 import PrivateRoute from "./privateRouter";
-import InsideLogin from "./insideLogin";
-import { ProfileContext } from "./Profile";
-import GlobalProfile from "./GlobalProfile";
-import Create from "./newCategory";
-import EditCategory from "./editCategory";
-import DeleteCategory from "./deleteCategory";
+import InsideLogin from "./services/insideLogin";
+import { ProfileContext } from "./hook/profile/Profile";
+import GlobalProfile from "./hook/profile/GlobalProfile";
+import Create from "./services/newCategory";
+import EditCategory from "./services/editCategory";
+import DeleteCategory from "./services/deleteCategory";
 
 
 function App() {
