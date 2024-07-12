@@ -2,7 +2,7 @@ import { Formik, Form, Field, ErrorMessage } from "formik";
 import * as Yup from "yup";
 import { useNavigate } from "react-router-dom";
 import React, { useState } from "react";
-import FetchData from "./hook/fetch";
+import FetchData from "../hook/fetch";
 import axios from "axios";
 
 interface SignInForm {
